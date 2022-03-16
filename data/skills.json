@@ -1,0 +1,43 @@
+[
+  {
+      "grouping":"Architecture",
+      "skills":[
+        "IP Networking",
+        "DNS",
+        "Firewalls",
+        "Load Balancing",
+        "Microservices",
+        "RESTful APIs",
+        "SaaS/PaaS/IaaS"
+      ]
+  },
+  {
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills":[
+        "Python",
+        "git",
+        "subversion",
+        "bash",
+        "NGINX",
+        {"name":"Linux","link":"https://kernel.org"}
+      ]
+  },
+  {
+      "grouping":"Platform Development & Administration",
+      "skills":[ "Atlassian","Bitbucket","Wordpress"]
+  },
+  {
+      "grouping":"Data Management",
+      "skills":[
+        "MySQL"
+      ]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Docker","link":"https://docker.com"},
+          {"name":"AWS","link":"https://aws.amazon.com"},
+          {"name":"Google Cloud","link":"https://cloud.google.com"}
+      ]
+  }
+]

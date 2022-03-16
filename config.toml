@@ -1,0 +1,58 @@
+title = "Gavin Chappell"
+baseURL = "https://www.gavinchappell.co.uk/"
+languageCode = "en-gb"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Nottingham, UK"
+email = "gavin.chappell@protonmail.com"
+favicon = "/favicon.ico"
+firstName = "Gavin"
+lastName = "Chappell"
+#phone = "1-555-555-1234"
+profileImage = "img/profile.jpg"
+showEducation = false
+showExperience = true
+showOpenSource = true
+showProjects = true
+showPublications = true
+showQr = true
+showSkills = true
+
+#[params.google]
+
+#[params.google.analytics]
+#trackerID = "XX-123446-01"
+
+[[params.handles]]
+link = "https://www.linkedin.com/in/gavinchappell/"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/g-a-c/"
+name = "GitHub"
+
+[[params.handles]]
+link = "https://bitbucket.org/gac/"
+name = "Bitbucket"
+
+[[params.handles]]
+link = "https://gitlab.com/gac"
+name = "GitLab"
+
+[[params.handles]]
+link = "https://keybase.io/gac"
+name = "Keybase"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
+
+[module]
+[[module.imports]]
+  path = 'github.com/eddiewebb/hugo-resume'
