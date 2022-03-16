@@ -1,0 +1,32 @@
+[
+    {
+        "role":"Senior Site Reliability Engineer",
+        "company":"Cisco",
+        "summary":"Working as an SRE supporting the CX Cloud product from Cisco",
+        "range":"November 2020 - Present"
+    },
+    {
+        "role":"Senior Network Engineer",
+        "company":"Barracuda Networks",
+        "summary":"Promoted to Senior Network Engineer, working on cloud-based web applications in support of features of the CloudGen Firewall ",
+        "range":"September 2018 - November 2020"
+    },
+    {
+        "role":"Escalation Engineer",
+        "company":"Barracuda Networks",
+        "summary":"The most senior support engineer for Barracuda Networks SSL VPN appliances, and an authority on the CloudGen Firewall product line",
+        "range":"June 2013 - September 2018"
+    },
+    {
+        "role":"IT Technician/Systems Administrator",
+        "company":"Loughborough University",
+        "summary":"Worked as part of the helpdesk team for a university engineering department, and was one of the system administrators for the university's Electrical Engineering department",
+        "range":"July 2002 - June 2013"
+    },
+    {
+        "role":"IT Technician",
+        "company":"University of Nottingham",
+        "summary":"Worked as part of the helpdesk team for a university engineering department",
+        "range":"June 2000 - July 2002"
+    }
+]
