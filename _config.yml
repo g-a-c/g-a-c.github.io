@@ -24,14 +24,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   A GitHub Pages experiment
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: _calmdowndear
+# twitter_username: _calmdowndear
 github_username:  g-a-c
 
 # Build settings
 #theme: minima
-remote_theme: daattali/beautiful-jekyll@5.0.0
+remote_theme: jekyll/minima@2.5.1
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
