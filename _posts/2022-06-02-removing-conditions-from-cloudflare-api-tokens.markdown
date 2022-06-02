@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Removing IP restrictions from Cloudflare API Tokens"
-date:   2022-06-02 21:23:11 +0000
+date:   2022-06-02 21:23:11 +0100
 categories: jekyll update
 ---
 [Cloudflare API Tokens][cloudflare-api-tokens] offer IP address conditions, which can be used to restrict the locations that a particular API token can be used from. These are able to be _set_ within the UI, however if you need to _remove_ the condition entirely, this cannot be done from the UI as you cannot remove the "is in"/"is not in" filter.
