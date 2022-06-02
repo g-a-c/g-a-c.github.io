@@ -18,18 +18,18 @@ g-a-c@shell:~> read -s CF_KEY
 This means that I need to pass some specific HTTP headers with my request (`X-Auth-Key` and `X-Auth-Email`) instead of the generic `Authorization` header. So first I need to get a list of current API Tokens on my account. This returns JSON data so `jq` can be used to prettify the output and get only the ID and name of each token:
 
 ```sh
-g-a-c@shell:~> curl -sX GET "https://api.cloudflare.com/client/v4/user/tokens" -H "X-Auth-Key: ${CF_TOKEN}" -H "X-Auth-Email: cloudflare@example.com" | \
+g-a-c@shell:~> curl -sX GET "https://api.cloudflare.com/client/v4/user/tokens" -H "X-Auth-Key: ${CF_KEY}" -H "X-Auth-Email: cloudflare@example.com" | \
   jq -r '.result[] | {"id": .id, "name": .name}'
 ```
 
-This will return a JSON document with a `results` key, containing an array of current API Tokens. From this, you'll know the ID of the API Token you want to change; this ID is used in the next set of calls.
+This API call will return a JSON document with a `result` key, containing an array of current API Tokens. From this, we can use `jq` to filter down to two JSON keys and you'll know the ID of the API Token you want to change; this ID is used in the next set of calls.
 
 The next thing to do is to retrieve that single key in isolation so that we can grab its _current_ state and use `jq` to manipulate it before updating the key in place. This will remove the contents of the `condition` key in the JSON document, but retain the key itself as empty. Then the resulting JSON document is `PUT`ed back to Cloudflare to replace the original JSON document describing the API token. I've split this onto multiple lines for human readability on this page, not necessarily the correct format for pasting into your shell...
 
 ```sh
-g-a-c@shell:~> curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/<ID>" -H "X-Auth-Key: ${CF_TOKEN}" -H "X-Auth-Email: cloudflare@example.com" | \
+g-a-c@shell:~> curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/<ID>" -H "X-Auth-Key: ${CF_KEY}" -H "X-Auth-Email: cloudflare@example.com" | \
   jq '.result | del(.condition."request.ip")' | \
-  curl -X PUT "https://api.cloudflare.com/client/v4/user/tokens/<ID>" -H "X-Auth-Key: ${CF_TOKEN}" -H "X-Auth-Email: cloudflare@example.com" -H "Content-Type: application/json" --data-binary @- | \
+  curl -X PUT "https://api.cloudflare.com/client/v4/user/tokens/<ID>" -H "X-Auth-Key: ${CF_KEY}" -H "X-Auth-Email: cloudflare@example.com" -H "Content-Type: application/json" --data-binary @- | \
   jq
 ```
 
