@@ -14,11 +14,11 @@ Setting a very low sitemap priority will tell search engines this is not importa
 
 This implementation uses Fusejs, jquery and mark.js
 
-
 ## Initial setup
 
 Search  depends on additional output content type of JSON in config.toml
-```
+
+```toml
 [outputs]
   home = ["HTML", "JSON"]
 ```
@@ -28,9 +28,11 @@ Search  depends on additional output content type of JSON in config.toml
 To search additional fields defined in front matter, you must add it in 2 places.
 
 ### Edit layouts/_default/index.JSON
+
 This exposes the values in /index.json
 i.e. add `category`
-```
+
+```json
 ...
   "contents":{{ .Content | plainify | jsonify }}
   {{ if .Params.tags }},
@@ -40,8 +42,10 @@ i.e. add `category`
 ```
 
 ### Edit fuse.js options to Search
+
 `static/js/search.js`
-```
+
+```js
 keys: [
   "title",
   "contents",
