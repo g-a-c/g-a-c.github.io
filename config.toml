@@ -7,7 +7,7 @@ PygmentsStyle = "monokai"
 enableGitInfo = false
 
 [params]
-address = "Nottingham, UK"
+address = "Nottingham"
 email = "gavin.chappell@protonmail.com"
 favicon = "/favicon.ico"
 firstName = "Gavin"
