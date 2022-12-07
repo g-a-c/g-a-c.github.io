@@ -1,6 +1,6 @@
 ---
 title: "CudaLaunch"
-date: 2016-11-08
+date: 2018-09-20
 pubtype: "Talk"
 featured: true
 description: "Presented two sessions on CudaLaunch at the Barracuda TechSummit 2018."

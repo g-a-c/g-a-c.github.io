@@ -2,7 +2,7 @@
 title: Device42 Terraform provider
 date: 2020-01-07T15:00:28.528Z
 link: https://registry.terraform.io/providers/g-a-c/device42/latest
-image: /img/marketplace-summary.webp
+image: /img/Terraform_VerticalLogo_Color_RGB.png
 description: A simple Terraform provider for retrieving passwords from Device42
 tags:
   - Terraform
