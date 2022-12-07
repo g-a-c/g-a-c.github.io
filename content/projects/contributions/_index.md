@@ -16,4 +16,4 @@ This page represents the landing page for "contributions" section. It is also sh
 
 -->
 
-A collection of efforts to which I contributed, but did not create. Contributing back to Open Source projects is a strong passion of mine, and requires a considerate approach to learn norms, standards and approach for each community for a successful merge!
+A collection of items which I contributed, but did not originally create. Contributing back to Open Source projects is an interest of mine; I enjoy the technical challenges (both in performing root cause analysis, and if I can, contributing a fix myself), and I find it satisfying raising detailed bug tickets for issues which _I've_ experienced knowing that I might also be saving someone else time in future.
