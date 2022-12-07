@@ -14,6 +14,4 @@ This page represents the landing page for "creations" section. It is also shown 
 
 \-->
 
-
-
-<p>A collection of projects authored by Gavin, and likely shared out with the community as an open source project.</p>
+A collection of projects authored by me, and likely shared out with the community as an open source project.
