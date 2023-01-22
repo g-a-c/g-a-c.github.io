@@ -5,7 +5,7 @@ PygmentsCodeFences = true
 PygmentsCodeFencesGuessSyntax = true
 PygmentsStyle = "monokai"
 enableGitInfo = false
-enableRobotsTXT = false
+enableRobotsTXT = true
 
 [params]
 address = "Nottingham"
