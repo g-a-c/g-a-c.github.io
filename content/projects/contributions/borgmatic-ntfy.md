@@ -1,5 +1,6 @@
 ---
 title: "Added `ntfy.sh` support to Borgmatic"
+date: 2022-06-08T22:00:00.000Z
 link: "https://projects.torsion.org/borgmatic-collective/borgmatic/pulls/543"
 image: "/img/borgmatic.png"
 description: "Allows Borgmatic users to receive push notifications via `ntfy.sh`"

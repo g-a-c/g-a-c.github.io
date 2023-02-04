@@ -1,5 +1,6 @@
 ---
 title: "Bugfixes for OPNsense/FRR"
+date: 2021-10-30T12:00:00.000Z
 link: "https://github.com/opnsense/plugins/pull/2633"
 image: "/img/opnsense_logo-zilver_grijs.png"
 description: "Improved the configuration of the FRR plugin for OPNsense"
