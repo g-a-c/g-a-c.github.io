@@ -39,7 +39,7 @@ languages:
     readOtherPosts: "Read more..."
     params:
       logo:
-        logoText: "/home/gavin"
+        logoText: "sudo make-me-a-sandwich"
         logoHomeLink: "/"
 
 
