@@ -10,7 +10,7 @@ tags:
   - DevOps
   - Go
 featured: true
-fact: 
+fact:
 ---
 
 As part of working for a company who used [Device42](https://www.device42.com) for their configuration management, it became apparent that a useful feature would be able to retrieve passwords from Device42 via Infrastructure-as-Code. Our IaC tool of choice at the time was Terraform, but there was no public provider for this, so [I created one](https://registry.terraform.io/providers/g-a-c/device42).
