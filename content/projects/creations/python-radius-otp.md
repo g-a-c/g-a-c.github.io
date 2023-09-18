@@ -11,7 +11,7 @@ tags:
   - authentication
   - security
 featured: true
-fact: 
+fact:
 ---
 
 As part of my work for [Barracuda Networks](https://www.barracuda.com) on the [CloudGen Firewall](https://www.barracuda.com/products/network-security/cloudgen-firewall), there were some authentication scenarios which were previously difficult to test easily due to setup time and complexity. The simple solution was to write some quick and dirty Python to implement the most basic form of the RADIUS protocol, including the `State` attribute in order to correctly pair two `Access-Request` packets.

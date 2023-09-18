@@ -14,7 +14,7 @@ tags:
   - OPNsense
 fact: "Improve FRR configuration in OPNsense appliances"
 weight: 100
-sitemap: 
+sitemap:
     priority : 0.8
 ---
 

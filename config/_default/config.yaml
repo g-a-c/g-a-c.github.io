@@ -12,7 +12,7 @@ params:
     trademark: true
     author: true
     rss: true
-    topText: 
+    topText:
       - '<a href="mailto:gavin.chappell@protonmail.com">email</a>'
   homeSubtitle: I am a Software Engineer for a company you've definitely heard of. Here are some services I use.
   disableReadOtherPosts: false
@@ -54,7 +54,7 @@ menu:
     - identifier: "creations"
       name      : "creations"
       url       : "/projects/creations"
-    
+
 
 # address: "Nottingham"
 # email: "gavin.chappell@protonmail.com"

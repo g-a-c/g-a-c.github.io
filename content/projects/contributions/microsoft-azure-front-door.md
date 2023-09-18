@@ -12,7 +12,7 @@ tags:
   - front-door
 fact: "Receive Borgmatic backup status via push notifications"
 weight: 100
-sitemap: 
+sitemap:
     priority : 0.8
 ---
 
