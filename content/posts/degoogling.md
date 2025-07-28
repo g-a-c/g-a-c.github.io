@@ -6,51 +6,56 @@ tags:
   - google
   - monopolies
   - bigtech
-  - 
+  -
 ---
+# De-Googling
+
 With the state of....well, everything in 2025 in the land of the free, I decided it would be a good time to try and become less dependent on big tech companies.
 There are a lot of features of Google I use heavily, and some I wouldn't really miss. This doc attempts to outline some of my experiences. If I ever figure out how to get this better integrated with Mastodon, I'd appreciate replies...
 
-# Google Mail
+## Google Mail
 
 This is a **big** one. I've been a Google Mail user since it was invite-only (2004?) and I have made the mistake which I made slowly over time of always using my **`@gmail.com`** address. Whomp whomp. If I had at least used my own domain from the beginning then migrating away would have been significantly easier. But instead I _used to_ use my own domain, then started trying Google Mail, then using it a little more, then before you know it it's been my main email address for a little over 20 years.
 
-## Mailcow
+### Mailcow
 
 Mailcow appeals for a few reasons, such as email, contacts and calendar in one place, like Exchange. It also provides ActiveSync, like Exchange. This should give me push email on iOS in the standard Mail app (which isn't possible with IMAP as far as I could see, perhaps even missing at a protocol level?). It also provides a very easily configured setup, which I was able to run on a small Hetzner VPS for testing.
 
 Unfortunately at some point, my mail has stopped syncing entirely, even when I manually refresh it. All the folders have also vanished. But Contacts and Calendar still sync as they should so this doesn't appear to be a network connection or password issue.
 
-### Pros
+#### Pros
 
 - relatively easily configured
-- comes with a Docker Compose file
+- comes with a first-party Docker Compose file (which I prefer when possible, saves me maintaining my own)
 - simple backups
+- supports plus-addressing with automatic subject line tagging, or dumping into a subfolder. Something I didn't know I needed but might actually be quite helpful in keeping my inbox clear
 
-### Cons
+#### Cons
 
 - for some reason, mail has stopped syncing, and I haven't yet found the right place to look to find out _why_
+  - **Solution:** the app password you use for ActiveSync _also_ needs permissions to use IMAP because it looks like SOGo re-uses the password sent by the client in order to connect to the IMAP server. I did not see this documented, so in the interests of least-privileged access, I only enabled ActiveSync on that specific app password. Mea culpa. I assume this did not affect contacts/calendar because these are not stored on IMAP, but on SOGo itself where the app password _was_ valid.
 - also some issues with syncing Reminders, I deleted them from my phone but they're still in Mailcow's webmail (SOGo)
+- no way to add recurring reminders from the webmail, you can add them from an iOS device and in the webmail they simply appear as "a list of lots of reminders, spaced apart". Which isn't my favourite implementation...
 
-# Google Drive
+## Google Drive
 
 I prefer my file sync to be more of a "virtual file system" because I have files that I never really access and don't see the point syncing these around with Syncthing. So I'm happy with
 
-## Nextcloud
+### Nextcloud
 
 I used Nextcloud All-in-One to try to replace Google Drive, and it works pretty well. THe VFS support appears solid on both my Windows desktop and macOS laptop, where only files I use get synced (saving space) and the entire library can be backed up centrally from my NAS where Nextcloud is hosted
 
-### Pros
+#### Pros
 
 - AIO Docker installation is _fairly_ easy
 
-### Cons
+#### Cons
 
 - I also tried this with Contacts and Calendar functionality
   - Contacts don't sync to iOS properly (I have ~130 Nextcloud contacts, and about ~115 of them sync to iOS. No idea why)
   - No way to add recurring reminders from the web
- 
-# Google Photos
+
+## Google Photos
 
 ## Immich
 
