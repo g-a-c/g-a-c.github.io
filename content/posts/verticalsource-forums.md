@@ -47,7 +47,7 @@ Turns out that the [Fora webpage](https://fora.com/communities/) has a list of a
   - This `1Password` command prints anything in the "Login" category, dumps the title (human-readable) and the first URL (which is usually the primary one, most of my logins only have one URL, some have more but the primary one is usually the "main" URL, secondary URLs might be for APIs, documentation, etc)
 
   ```shell
-  op item list --categories login --format=json | jq -r '[.[] | {"title": .title, "primary_url": .urls[0].href}]' > my_accounts.json
+  op item list --categories login --format=json | jq -r '[.[] | {"title": .title, "username": .additional_information, "primary_url": .urls[0].href}]' > my_accounts.json
   ```
 
 - Read in the list of Fora forum URLs, and find any matching `1Password` entries
