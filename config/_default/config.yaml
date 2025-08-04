@@ -4,77 +4,27 @@ languageCode: "en-gb"
 enableGitInfo: false
 enableRobotsTXT: true
 
-author:
-  name: "Gavin Chappell"
 params:
+  author:
+    name: "Gavin Chappell"
   enableSharingButtons: true
-  footer:
-    trademark: true
-    author: true
-    rss: true
-    topText:
-      - '<a href="mailto:gavin.chappell@protonmail.com">email</a>'
-  homeSubtitle: I am a Software Engineer for a company you've definitely heard of. Here are some services I use.
-  disableReadOtherPosts: false
   # Metadata mostly used in document's head
-  description: "This is a website."
+  description: "Gavin Chappell"
   keywords: "homepage"
   images: [""]
-  social:
-    - name: "github"
-      url: "https://github.com/g-a-c"
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/gavinchappell/"
-    - name: "bitbucket"
-      url: "https://bitbucket.org/gac/"
-    - url: "https://gitlab.com/gac"
-      name: "gitlab"
-    - url: "https://keybase.io/gac"
-      name: "keybase"
 
 languages:
   en:
-    title: "This is a website."
-    copyright: "me."
+    title: "Gavin Chappell"
+    copyright: "Gavin Chappell"
     readOtherPosts: "Read more..."
-    params:
-      logo:
-        logoText: "sudo make-me-a-sandwich"
-        logoHomeLink: "/"
 
 
 menu:
   main:
-    - identifier: "posts"
-      name      : "posts"
-      url       : "/posts"
-    - identifier: "contributions"
-      name      : "contributions"
-      url       : "/projects/contributions"
-    - identifier: "creations"
-      name      : "creations"
-      url       : "/projects/creations"
-
-
-# address: "Nottingham"
-# email: "gavin.chappell@protonmail.com"
-# favicon: "/favicon.ico"
-# firstName: "Gavin"
-# lastName: "Chappell"
-# #phone: "1-555-555-1234"
-# profileImage: "img/profile.jpg"
-# showEducation: false
-# showExperience: true
-# showOpenSource: true
-# showProjects: true
-# showPublications: true
-# showQr: false
-# showSkills: true
-
-#[params.google]
-
-#[params.google.analytics]
-#trackerID: "XX-123446-01"
+    - identifier: "Experience"
+      name: "experience"
+      url: "/experience"
 
 outputs:
   home:
@@ -86,4 +36,14 @@ taxonomies:
 
 module:
   imports:
-    - path: 'github.com/rhazdon/hugo-theme-hello-friend-ng'
+    - path: 'github.com/imfing/hextra'
+
+experience:
+  - name: Cisco Systems
+    startDate: "17/11/2020"
+    endDate: ""
+    title: "Software Engineer"
+  - name: Barracuda Networks
+    startDate: "1/6/2013"
+    endDate: "16/11/2020"
+    title: "Escalation Engineer"
