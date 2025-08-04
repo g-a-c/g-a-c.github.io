@@ -11,4 +11,4 @@ IN the dfault theme, "projects" is divided among "Creations" you authored and "c
 
 -->
 
-This section contains projects [created](/projects/creations) and [contributed](/projects/contributions) to by me.  Everything listed is an open source effort, the distinction is only my role as owner or contributor.
+This section contains projects [created](/projects/creations) by me.  Everything listed is an open source effort, the distinction is only my role as owner or contributor.

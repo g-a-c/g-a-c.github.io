@@ -1,4 +1,6 @@
 User-agent: *
+{{ if not hugo.IsProduction}}
 {{ range .Pages }}
 Disallow: {{ .RelPermalink }}
+{{ end }}
 {{ end }}
