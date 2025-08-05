@@ -8,8 +8,6 @@ layout: wide
 
 outputs:
 - html
-- rss
-- json
 ---
 #### Employment history
 

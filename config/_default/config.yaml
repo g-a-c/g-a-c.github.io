@@ -22,6 +22,12 @@ languages:
 
 menu:
   main:
+    - identifier: "what you're reading"
+      name: "what you're reading"
+      url: "/what-youre-reading/"
+    - identifier: "what i'm tinkering with"
+      name: "what i'm tinkering with"
+      url: "/homelab/"
     - identifier: "Experience"
       name: "experience"
       url: "/experience"
@@ -38,12 +44,7 @@ module:
   imports:
     - path: 'github.com/imfing/hextra'
 
-experience:
-  - name: Cisco Systems
-    startDate: "17/11/2020"
-    endDate: ""
-    title: "Software Engineer"
-  - name: Barracuda Networks
-    startDate: "1/6/2013"
-    endDate: "16/11/2020"
-    title: "Escalation Engineer"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
