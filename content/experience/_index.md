@@ -39,7 +39,7 @@ outputs:
         title="University of Nottingham"
         subtitle="IT Support Technician (July 2000 - July 2002)"
         image="university-of-nottingham.png"
-        imageStyle="object-fit:contain; aspect-ratio:16/9;"
+        imageStyle="object-fit:contain; aspect-ratio:16/9; background-color: white;"
   >}}
 {{< /cards >}}
 
@@ -49,20 +49,17 @@ outputs:
   {{< card
         link="/experience/opnsense"
         title="OPNsense"
-        image="opnsense.png"
-        imageStyle="object-fit:contain; aspect-ratio:16/9;"
+        subtitle="Enhancements to the FRR and Caddy plugins, some cosmetic changes in `core`"
   >}}
   {{< card
         link="/experience/borgmatic"
         title="borgmatic"
-        image="borgmatic.png"
-        imageStyle="object-fit:contain; aspect-ratio:16/9;"
+        subtitle="Added push notifications via `ntfy.sh`"
   >}}
   {{< card
         link="/experience/microsoft-azure-front-door"
         title="Microsoft Azure Front Door troubleshooting"
-        image="10073-icon-service-Front-Door-and-CDN-Profiles.svg"
-        imageStyle="object-fit:contain; aspect-ratio:16/9;"
+        subtitle="Documentation fixes for RFC-compliant behaviour"
   >}}
   {{< card
         link="https://code.onedev.io"
@@ -86,6 +83,6 @@ outputs:
         title="AWS Certified Cloud Practitioner"
         subtitle="expires November 2025"
         image="aws.svg"
-        imageStyle="object-fit:contain; aspect-ratio:16/9;"
+        imageStyle="object-fit:contain; aspect-ratio:16/9; background-color: white;"
   >}}
 {{< /cards >}}
