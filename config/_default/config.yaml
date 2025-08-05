@@ -4,6 +4,7 @@ languageCode: "en-gb"
 enableGitInfo: false
 enableRobotsTXT: true
 
+copyright: "Gavin Chappell"
 params:
   author:
     name: "Gavin Chappell"
@@ -12,6 +13,9 @@ params:
   description: "Gavin Chappell"
   keywords: "homepage"
   images: [""]
+  footer:
+    displayPoweredBy: false
+    displayCopyright: true
 
 languages:
   en:

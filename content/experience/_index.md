@@ -9,6 +9,7 @@ layout: wide
 outputs:
 - html
 ---
+<!-- markdownlint-disable MD034 -->
 #### Employment history
 
 {{< cards >}}

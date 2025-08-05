@@ -1,0 +1,8 @@
+# Fix any fixable errors
+fix: true
+
+line-length:
+  heading_line_length: 80
+  line_length: 120
+  code_blocks: false
+  tables: false

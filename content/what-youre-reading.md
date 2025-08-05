@@ -25,3 +25,7 @@ Technologies used:
   - [GitHub Actions](https://docs.github.com/en/actions) for CI/CD purposes
 - [OctoDNS](https://github.com/octodns/octodns) for configuring DNS records
 - [Mailcow](https://mailcow.email) for email services on this domain
+
+Changes are checked for validity using the [`pre-commit`](https://pre-commit.com) framework to make sure commits are of
+a high quality and follow best practices. I'm a big fan of using automated tooling like this across an entire team for
+consistency and quality with minimal effort.
