@@ -6,8 +6,6 @@ sitemap:
 
 outputs:
 - html
-- rss
-- json
 ---
 
 As a seasoned Site Reliability Engineer with a passion for automation and infrastructure optimization, I bring over 10 years of experience in designing and implementing scalable, reliable systems as part of a 20+ year IT career. My expertise lies in harnessing the power
@@ -21,4 +19,6 @@ effective communication, adaptability, and continuous learning.
 As a certified Hashicorp Terraform Associate and AWS Cloud Practitioner, I'm well-versed in the latest trends and best practices in SRE. Whether you're looking to automate tedious tasks, improve application reliability, or simply streamline your
 development workflow, I'm here to help. Let's work together to build scalable, efficient systems that meet your needs and exceed your expectations.
 
-You can see more of my experience [here](/experience), or find my LinkedIn profile [here](https://www.linkedin.com/in/gavinchappell/)
+You can see more of my experience [here](/experience), or find my LinkedIn profile [here](https://www.linkedin.com/in/gavinchappell/).
+Read more about the site you're reading [here](/what-youre-reading/). You can email me at `gavin@` on this domain
+(`gavinchappell.co.uk`)
