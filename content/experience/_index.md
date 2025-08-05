@@ -64,6 +64,7 @@ outputs:
         imageStyle="object-fit:contain; aspect-ratio:16/9;"
   >}}
   {{< card
+        <!-- markdownlint-disable-next-line MD034 -->
         link="https://code.onedev.io"
         title="OneDev"
         subtitle="Documentation fixes and password manager UX fixes"
@@ -74,6 +75,7 @@ outputs:
 
 {{< cards >}}
   {{< card
+        <!-- markdownlint-disable-next-line MD034 -->
         link="https://www.credly.com/badges/2db2e35a-7919-4402-b712-83db36463bfa/public_url"
         title="Hashicorp Terraform Associate 003"
         subtitle="expires October 2025"
@@ -81,6 +83,7 @@ outputs:
         imageStyle="object-fit:contain; aspect-ratio:16/9;"
   >}}
   {{< card
+        <!-- markdownlint-disable-next-line MD034 -->
         link="https://cp.certmetrics.com/amazon/en/public/verify/credential/46R2HG5CS1Q1Q198"
         title="AWS Certified Cloud Practitioner"
         subtitle="expires November 2025"
