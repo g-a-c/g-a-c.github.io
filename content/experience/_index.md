@@ -81,7 +81,7 @@ outputs:
   {{< card
         link="https://cp.certmetrics.com/amazon/en/public/verify/credential/46R2HG5CS1Q1Q198"
         title="AWS Certified Cloud Practitioner"
-        subtitle="expires November 2025"
+        subtitle="expires July 2028"
         image="aws.svg"
         imageStyle="object-fit:contain; aspect-ratio:16/9; background-color: white;"
   >}}
