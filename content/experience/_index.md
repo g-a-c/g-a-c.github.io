@@ -14,9 +14,16 @@ outputs:
 
 {{< cards >}}
   {{< card
+        link="/experience/commify"
+        title="Commify"
+        subtitle="Senior Site Reliability Engineer (January 2026 - present)"
+        image="commify.svg"
+        imageStyle="object-fit:contain; aspect-ratio:16/9;"
+  >}}
+  {{< card
         link="/experience/cisco"
         title="Cisco Systems"
-        subtitle="Software Engineer (November 2020 - present)"
+        subtitle="Software Engineer (November 2020 - January 2026)"
         image="cisco.svg"
         imageStyle="object-fit:contain; aspect-ratio:16/9;"
   >}}
