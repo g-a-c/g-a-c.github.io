@@ -42,7 +42,7 @@ outputs:
         imageStyle="object-fit:contain; aspect-ratio:16/9;"
   >}}
   {{< card
-        link="/experience/lboro"
+        link="/experience/nottingham"
         title="University of Nottingham"
         subtitle="IT Support Technician (July 2000 - July 2002)"
         image="university-of-nottingham.png"
