@@ -1,19 +1,19 @@
 ---
-title: "Cisco Systems"
-date: 2020-11-17T09:00:00.000Z
+title: "Commify"
+date: 2026-01-20T09:00:00.000Z
 weight: 100
 sitemap:
     priority : 0.8
 ---
 {{% steps %}}
 
-### January 2026 - Senior Site Reliability Engineer, CX Cloud
+### January 2026 - Senior Site Reliability Engineer
 
-I joined Cisco on a recommendation from a former Barracuda colleague to form a "new SRE team" as part of the CX Cloud
-business unit. During my time on this team we had several primary focuses including
+I decided to leave Cisco in the interest of furthering my personal development - working with the team I was with in
+Cisco became more difficult due to being the only UK person on the team which restricted available shared hours for
+collaboration, made on-call difficult/impossible.
 
-- infrastructure automation (Terraform, CloudFormation, etc)
-- reliability consultation and engagement with CX Cloud microservices teams
-- liaise with NOC/SOC as part of incident response
+So I joined Commify, in their main office in Nottingham UK, in a hybrid role to encourage me to find a balance of remote
+work (which I've been previously enjoying at Barracuda and Cisco) and face-to-face office time with the team.
 
 {{% /steps %}}
