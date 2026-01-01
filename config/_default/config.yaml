@@ -23,18 +23,20 @@ languages:
     copyright: "Gavin Chappell"
     readOtherPosts: "Read more..."
 
-
 menu:
   main:
+    - identifier: "Experience"
+      name: "professional experience"
+      url: "/experience"
+      weight: 10
     - identifier: "what you're reading"
       name: "what you're reading"
       url: "/what-youre-reading/"
+      weight: 20
     - identifier: "what i'm tinkering with"
       name: "what i'm tinkering with"
       url: "/homelab/"
-    - identifier: "Experience"
-      name: "experience"
-      url: "/experience"
+      weight: 30
 
 outputs:
   home:
@@ -46,7 +48,7 @@ taxonomies:
 
 module:
   imports:
-    - path: 'github.com/imfing/hextra'
+    - path: "github.com/imfing/hextra"
 
 markup:
   goldmark:

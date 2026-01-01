@@ -22,7 +22,7 @@ outputs:
   >}}
   {{< card
         link="/experience/cisco"
-        title="Cisco Systems"
+        title="Cisco"
         subtitle="Software Engineer (November 2020 - January 2026)"
         image="cisco.svg"
         imageStyle="object-fit:contain; aspect-ratio:16/9;"
@@ -35,22 +35,23 @@ outputs:
         imageStyle="object-fit:contain; aspect-ratio:16/9;"
   >}}
   {{< card
-        link="/experience/lboro"
         title="Loughborough University"
         subtitle="Systems Administrator (July 2002 - June 2013)"
         image="loughborough-university.svg"
         imageStyle="object-fit:contain; aspect-ratio:16/9;"
   >}}
+  <!-- markdownlint-capture -->
+  <!-- markdownlint-disable MD013 -->
   {{< card
-        link="/experience/nottingham"
         title="University of Nottingham"
         subtitle="IT Support Technician (July 2000 - July 2002)"
         image="university-of-nottingham.png"
-        imageStyle="object-fit:contain; aspect-ratio:16/9; background-color: white;"
+        imageStyle="object-fit:contain; aspect-ratio:16/9; filter: invert(1) hue-rotate(180deg); transition: filter 0.3s ease;"
   >}}
+  <!-- markdownlint-restore -->
 {{< /cards >}}
 
-#### Open source contributions
+#### Open source contributions (work in progress)
 
 {{< cards >}}
   {{< card
@@ -85,11 +86,14 @@ outputs:
         image="hashicorp-certified-terraform-associate-003.png"
         imageStyle="object-fit:contain; aspect-ratio:16/9;"
   >}}
+  <!-- markdownlint-capture -->
+  <!-- markdownlint-disable MD013 -->
   {{< card
         link="https://cp.certmetrics.com/amazon/en/public/verify/credential/46R2HG5CS1Q1Q198"
         title="AWS Certified Cloud Practitioner"
         subtitle="expires July 2028"
         image="aws.svg"
-        imageStyle="object-fit:contain; aspect-ratio:16/9; background-color: white;"
+        imageStyle="object-fit:contain; aspect-ratio:16/9; filter: invert(1) hue-rotate(180deg); transition: filter 0.3s ease;"
   >}}
+  <!-- markdownlint-restore -->
 {{< /cards >}}
