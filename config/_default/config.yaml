@@ -37,6 +37,10 @@ menu:
       name: "what i'm tinkering with"
       url: "/homelab/"
       weight: 30
+    - identifier: "privacy policy"
+      name: "privacy policy"
+      url: "/privacy-policy/"
+      weight: 40
 
 outputs:
   home:
