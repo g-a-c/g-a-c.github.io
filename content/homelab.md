@@ -24,3 +24,11 @@ a [ZFS](https://openzfs.org) array.
 My favourite thing about working in the technology sector is that there's always cool new stuff to get to grips with,
 and being able to try things out at home often feeds into my tool choices at work. Where there's something with more
 features, or more reliability, that gives me something that can have a genuine impact.
+
+### Future things to try
+
+- [Talos](https://talos.dev); bare-metal Kubernetes distribution-slash-operating-system
+  - Combined with [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) for declarative configuration
+- [NixOS](https://nixos.org); operating system configured declaratively
+  - I currently use [Debian](https://debian.org) and intended to manage it _purely_ with [Ansible](https://ansible.org)
+    to make sure the configuration was reproducible if it needed to be, however this hasn't panned out how I intended
