@@ -20,6 +20,7 @@ params:
     umami_analytics:
       id: 1afbb250-0ab6-4c67-b5ab-a413ffe77f25
       script_url: https://umami.cluster-f.uk/script.js
+      performance: true
 
 languages:
   en:
@@ -57,7 +58,7 @@ taxonomies:
 module:
   imports:
     - path: "github.com/imfing/hextra"
-    - path: github.com/hugomods/umami-analytics
+    - path: github.com/g-a-c/hugo-umami-analytics
 
 markup:
   goldmark:
