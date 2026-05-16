@@ -61,7 +61,7 @@ module:
     - path: github.com/g-a-c/hugo-umami-analytics
 
 theme:
-  - hextra
+  - "github.com/imfing/hextra"
 
 markup:
   goldmark:
