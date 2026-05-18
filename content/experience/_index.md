@@ -14,21 +14,21 @@ outputs:
 
 {{< cards >}}
   {{< card
-        link="/experience/commify"
+        link_dis="/experience/commify"
         title="Commify"
         subtitle="Senior Site Reliability Engineer (January 2026 - present)"
         image="commify.svg"
         imageStyle="object-fit:contain; aspect-ratio:16/9;"
   >}}
   {{< card
-        link="/experience/cisco"
+        link_dis="/experience/cisco"
         title="Cisco"
         subtitle="Software Engineer (November 2020 - January 2026)"
         image="cisco.svg"
         imageStyle="object-fit:contain; aspect-ratio:16/9;"
   >}}
   {{< card
-        link="/experience/barracuda"
+        link_dis="/experience/barracuda"
         title="Barracuda Networks"
         subtitle="Senior Network Engineer (June 2013 - November 2020)"
         image="barracuda.png"
